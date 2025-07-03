@@ -1,4 +1,4 @@
-name: "Mirroring Repository"
+name: "Mirroring Repository to Gitlab"
 description: "Mirror a repository to another repository on GitHub, GitLab, BitBucket, AWS CodeCommit, etc."
 branding:
   icon: "archive"
