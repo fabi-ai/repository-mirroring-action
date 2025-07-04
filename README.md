@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: pixta-dev/repository-mirroring-action@v1
+      - uses: fabi-ai/repository-mirroring-action@v1
         with:
           target_repo_url:
             git@gitlab.com:<username>/<target_repository_name>.git
@@ -43,7 +43,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: pixta-dev/repository-mirroring-action@v1
+      - uses: fabi-ai/repository-mirroring-action@v1
         with:
           target_repo_url:
             ssh://git-codecommit.<somewhere>.amazonaws.com/v1/repos/<target_repository_name>
